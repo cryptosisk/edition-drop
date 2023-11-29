@@ -47,7 +47,7 @@
 }
 
 .image {
-  width: 85%;
+  width: 100%;
   border-radius: 3px;
   border: 1px solid red;
 }
@@ -105,12 +105,12 @@
 }
 
 .mintAreaLeft {
-  margin-left: 5%;
+  margin-left: 0%;
   opacity: 0.75;
 }
 
 .mintAreaRight {
-  margin-right: 5%;
+  margin-right: 0%;
   opacity: 0.75;
 }
 
