@@ -5,21 +5,21 @@ import Head from "next/head";
 import ThirdwebGuideFooter from "../components/GitHubLink";
 
 // This is the chain your dApp will work on.
-const activeChain = "mumbai";
+const activeChain = "arbitrum";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider activeChain={activeChain}>
-      <Head>
-        <title>thirdweb Edition Drop Minting Customizable Page</title>
+     <Head>
+        <title>Film0 Ticket</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Learn How To Use Thirdweb's Edition Drop contract and create a customizable Edition Drop minting page"
+          content="Mint an NFT Ticket for Film0, Presented by Irreversible DAO"
         />
         <meta
           name="keywords"
-          content="Thirdweb, thirdweb Edition drop, how to make thirdweb nft drop, how to make nft collection thirdweb"
+          content="irreversiblefilms, irreversibledao, film0, irreversible films, irreversible dao, sisk"
         />
       </Head>
       <Component {...pageProps} />

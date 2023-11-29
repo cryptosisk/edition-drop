@@ -215,10 +215,13 @@ const Home: NextPage = () => {
           <>
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
-              <h1>{contractMetadata?.name}</h1>
+              {/* <h1>{contractMetadata?.name}</h1> */}
+               <h1>Film0</h1>
+               <h2>By Sisk</h2>
               {/* Description of your NFT Collection */}
               <p className={styles.description}>
-                {contractMetadata?.description}
+                {/* {contractMetadata?.description} */}
+                Description of the film
               </p>
             </div>
 
@@ -226,7 +229,7 @@ const Home: NextPage = () => {
               {/* Image Preview of NFTs */}
               <img
                 className={styles.image}
-                src={contractMetadata?.image}
+                src={"/poster0.png"}
                 alt={`${contractMetadata?.name} preview image`}
               />
 
@@ -312,12 +315,12 @@ const Home: NextPage = () => {
         )}
       </div>
       {/* Powered by thirdweb */}{" "}
-      <img
+      {/* <img 
         src="/logo.png"
         alt="thirdweb Logo"
         width={135}
         className={styles.buttonGapTop}
-      />
+      />*/}
     </div>
   );
 };
