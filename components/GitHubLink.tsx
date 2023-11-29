@@ -1,25 +1,9 @@
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/edition-drop";
+  const url = "irreversible.wtf/films";
   return (
     <>
-      <div
-        style={{
-          position: "fixed",
-          bottom: -120,
-          right: -80,
-          height: 300,
-          width: 150,
-          border: "1px solid #eaeaea",
-          transform: "rotate(45deg)",
-          backgroundColor: " #262935",
-          cursor: "pointer",
-        }}
-        role="button"
-        onClick={() => window.open(url, "_blank")}
-      />
-
       <div
         style={{
           position: "fixed",
@@ -28,11 +12,11 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <img
-          src={"/github.png"}
-          width={40}
-          height={40}
+          src={"/irrev-dao-logo.png"}
+          width={100}
+          height={100}
           role="button"
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", border: "1px solid red"}}
           onClick={() => window.open(url, "_blank")}
         />
       </div>
