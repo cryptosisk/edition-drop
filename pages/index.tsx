@@ -264,7 +264,7 @@ const Home: NextPage = () => {
                 </div>
               ) : (
                 <>
-                  <p>Quantity</p>
+                  <p className = {styles.quantityText}>Mint</p>
                   <div className={styles.quantityContainer}>
                     <button
                       className={`${styles.quantityControlButton}`}

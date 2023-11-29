@@ -109,6 +109,11 @@
   opacity: 0.75;
 }
 
+.quantityText {
+  margin-left: 45%;
+  opacity: 0.75;
+}
+
 .mintAreaRight {
   margin-right: 0%;
   opacity: 0.75;
