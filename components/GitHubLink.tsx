@@ -7,8 +7,8 @@ export default function ThirdwebGuideFooter() {
       <div
         style={{
           position: "fixed",
-          bottom: 22,
-          right: 18,
+          top: 22,
+          left: 18,
         }}
       >
         <img
